@@ -3,5 +3,5 @@ from pyrogram import Client, Filters
 
 @Client.on_message(Filters.command(["help"]))
 async def start(client, message):
-    helptxt = f"Currently Only supports Youtube Single  (No playlist) Just Send Youtube Url"
+    helptxt = f"CLICK DOWNLOAD OPTION -- Select Platform-- Enter Link -- Select Quality!!!"
     await message.reply_text(helptxt)
